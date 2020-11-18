@@ -26,10 +26,10 @@ class LoginViewController2: UIViewController {
         plusButton.layer.borderColor = CGColor(red: CGFloat(1), green: CGFloat(1), blue: CGFloat(1), alpha: CGFloat(0.3))
         loginButton.layer.borderWidth = 1
         loginButton.layer.borderColor = CGColor(red: CGFloat(1), green: CGFloat(1), blue: CGFloat(1), alpha: CGFloat(0.3))
-//        loginView.layer.borderWidth = 1
-//        loginView.layer.borderColor = CGColor(red: CGFloat(0.7), green: CGFloat(0.7), blue: CGFloat(0.7), alpha: CGFloat(1.0))
-        loginView.layer.borderColor = CGColor(red: CGFloat(1.0), green: CGFloat(1.0), blue: CGFloat(1.0), alpha: CGFloat(1.0))
-        loginView.layer.cornerRadius = 10
+        loginView.layer.cornerRadius = 5
+        loginView.layer.borderWidth = 2
+        loginView.layer.borderColor = CGColor(red: CGFloat(0.93), green: CGFloat(0.93), blue: CGFloat(0.93), alpha: CGFloat(1))
+        
         
         
     }
