@@ -187,11 +187,11 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CP5-ch-GDq">
-                                <rect key="frame" x="20" y="102" width="374" height="293"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CP5-ch-GDq">
+                                <rect key="frame" x="20" y="152" width="374" height="293"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Bbf-eg-Ydg">
-                                        <rect key="frame" x="40" y="10" width="294" height="170"/>
+                                        <rect key="frame" x="40" y="7" width="294" height="173"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ifz-Ki-IUP">
                                                 <rect key="frame" x="0.0" y="0.0" width="294" height="35"/>
@@ -218,7 +218,7 @@
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XuD-wo-o5X">
-                                                <rect key="frame" x="0.0" y="138" width="294" height="32"/>
+                                                <rect key="frame" x="0.0" y="138" width="294" height="35"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="35" id="Gnm-Eh-iAg"/>
                                                 </constraints>
@@ -245,7 +245,6 @@
                                 <constraints>
                                     <constraint firstItem="Wpm-vI-Pdm" firstAttribute="leading" secondItem="CP5-ch-GDq" secondAttribute="leading" constant="40" id="MB6-Z6-q3T"/>
                                     <constraint firstAttribute="height" constant="293" id="O3g-WK-k2S"/>
-                                    <constraint firstItem="Bbf-eg-Ydg" firstAttribute="top" secondItem="CP5-ch-GDq" secondAttribute="top" constant="10" id="Sio-fv-Wlo"/>
                                     <constraint firstAttribute="trailing" secondItem="Bbf-eg-Ydg" secondAttribute="trailing" constant="40" id="bFF-AL-nPV"/>
                                     <constraint firstAttribute="trailing" secondItem="Wpm-vI-Pdm" secondAttribute="trailing" constant="40" id="bxm-1X-hJT"/>
                                     <constraint firstItem="Bbf-eg-Ydg" firstAttribute="leading" secondItem="CP5-ch-GDq" secondAttribute="leading" constant="40" id="hEY-Rr-kJ6"/>
@@ -253,8 +252,8 @@
                                     <constraint firstAttribute="bottom" secondItem="Wpm-vI-Pdm" secondAttribute="bottom" constant="20" id="tF5-NT-91T"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUM-Px-npl">
-                                <rect key="frame" x="100" y="375" width="214" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUM-Px-npl">
+                                <rect key="frame" x="100" y="426" width="214" height="44"/>
                                 <color key="backgroundColor" red="0.61576580999999997" green="0.73170804980000004" blue="0.81178379060000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="JB0-Ez-vtA"/>
@@ -278,7 +277,7 @@
                             <constraint firstItem="JJv-bE-pBl" firstAttribute="trailing" secondItem="DUM-Px-npl" secondAttribute="trailing" constant="100" id="cPn-vN-2ET"/>
                             <constraint firstItem="DUM-Px-npl" firstAttribute="leading" secondItem="JJv-bE-pBl" secondAttribute="leading" constant="100" id="fzB-ye-l0F"/>
                             <constraint firstItem="JJv-bE-pBl" firstAttribute="trailing" secondItem="Jvr-wf-x76" secondAttribute="trailing" constant="20" id="gYV-2v-trt"/>
-                            <constraint firstItem="CP5-ch-GDq" firstAttribute="top" secondItem="Jvr-wf-x76" secondAttribute="bottom" constant="10" id="guv-K7-XKK"/>
+                            <constraint firstItem="CP5-ch-GDq" firstAttribute="top" relation="lessThanOrEqual" secondItem="Jvr-wf-x76" secondAttribute="bottom" constant="60" id="iaf-kT-GcO"/>
                             <constraint firstItem="Jvr-wf-x76" firstAttribute="top" secondItem="JJv-bE-pBl" secondAttribute="top" constant="10" id="mdz-f7-I60"/>
                             <constraint firstItem="Jvr-wf-x76" firstAttribute="top" secondItem="JJv-bE-pBl" secondAttribute="top" constant="10" id="zds-7m-He4"/>
                         </constraints>
