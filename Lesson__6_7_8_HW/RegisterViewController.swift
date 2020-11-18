@@ -31,6 +31,9 @@ class RegisterViewControlle : UIViewController, UIAdaptivePresentationController
         
         viewWithL.layer.cornerRadius = 5
         
+        mainView.layer.cornerRadius = 5
+        mainView.layer.borderWidth = 2
+        mainView.layer.borderColor = CGColor(red: CGFloat(0.93), green: CGFloat(0.93), blue: CGFloat(0.93), alpha: CGFloat(1))
         
     }
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
