@@ -1,0 +1,39 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "4Ia-m3-geA"; */
+"4Ia-m3-geA.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "5Sx-J3-3ry"; */
+"5Sx-J3-3ry.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7bT-rJ-gOI"; */
+"7bT-rJ-gOI.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "8Ut-OH-aCv"; */
+"8Ut-OH-aCv.normalTitle" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Login "; ObjectID = "Viv-Qw-vwV"; */
+"Viv-Qw-vwV.normalTitle" = "Login ";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "ad6-oy-PCE"; */
+"ad6-oy-PCE.text" = "Registration";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "d1O-X7-roE"; */
+"d1O-X7-roE.placeholder" = "Login";
+
+/* Class = "UILabel"; text = "Stay Logged"; ObjectID = "erD-NL-j64"; */
+"erD-NL-j64.text" = "Stay Logged";
+
+/* Class = "UITextField"; placeholder = "Login"; ObjectID = "fdB-n7-WXu"; */
+"fdB-n7-WXu.placeholder" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "r1u-xP-aXO"; */
+"r1u-xP-aXO.normalTitle" = "Log In";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "rlt-Ac-Z5L"; */
+"rlt-Ac-Z5L.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "x2G-Rb-AhC"; */
+"x2G-Rb-AhC.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Welcome"; ObjectID = "yiy-Wy-ORj"; */
+"yiy-Wy-ORj.text" = "Welcome";

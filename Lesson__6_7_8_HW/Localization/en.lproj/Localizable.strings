@@ -1,0 +1,15 @@
+/* 
+  projectMainLocalization.strings
+  Lesson__6_7_8_HW
+
+  Created by admin on 11.11.2020.
+  
+*/
+"Login" = "Login";
+"Register" = "Register";
+"PasswordPl" = "Password";
+"LoginPl" = "Login";
+"stayLoggedL" = "Stay Logged";
+"noAuth" = "NoAuth";
+"Hi" = "Hi";
+"flag" = "flag_uk";

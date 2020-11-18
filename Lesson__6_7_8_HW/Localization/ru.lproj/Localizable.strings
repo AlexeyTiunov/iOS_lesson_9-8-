@@ -1,0 +1,15 @@
+/* 
+  projectMainLocalization.strings
+  Lesson__6_7_8_HW
+
+  Created by admin on 11.11.2020.
+  
+*/
+"Login" = "Логин";
+"Register" = "Регистрация";
+"PasswordPl" = "Пароль";
+"LoginPl" = "Логин";
+"stayLoggedL" = "Запомнить пароль";
+"noAuth" = "Ошибка авторизации";
+"Hi" = "Привет";
+"flag" = "flag_ru";
