@@ -190,7 +190,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CP5-ch-GDq">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CP5-ch-GDq">
                                 <rect key="frame" x="20" y="152" width="374" height="293"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="Bbf-eg-Ydg">
@@ -233,13 +233,25 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wpm-vI-Pdm">
                                         <rect key="frame" x="40" y="198" width="294" height="75"/>
                                         <subviews>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vIe-d8-CMW">
-                                                <rect key="frame" x="15" y="22" width="49" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vIe-d8-CMW">
+                                                <rect key="frame" x="15" y="22" width="51" height="31"/>
                                             </switch>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Agree with terms and conditions" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSh-b1-hE1">
+                                                <rect key="frame" x="81" y="8" width="205" height="59"/>
+                                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGray5Color"/>
                                         <constraints>
+                                            <constraint firstItem="vIe-d8-CMW" firstAttribute="leading" secondItem="Wpm-vI-Pdm" secondAttribute="leading" constant="15" id="1JZ-w0-S1P"/>
+                                            <constraint firstItem="kSh-b1-hE1" firstAttribute="top" secondItem="Wpm-vI-Pdm" secondAttribute="top" constant="8" id="8qS-li-raZ"/>
+                                            <constraint firstAttribute="trailing" secondItem="kSh-b1-hE1" secondAttribute="trailing" constant="8" id="9I1-bZ-cXU"/>
+                                            <constraint firstItem="vIe-d8-CMW" firstAttribute="centerY" secondItem="kSh-b1-hE1" secondAttribute="centerY" id="aVR-oW-C67"/>
+                                            <constraint firstAttribute="bottom" secondItem="kSh-b1-hE1" secondAttribute="bottom" constant="8" id="g1c-uh-2FV"/>
+                                            <constraint firstItem="kSh-b1-hE1" firstAttribute="centerY" secondItem="Wpm-vI-Pdm" secondAttribute="centerY" id="lyz-nD-hTF"/>
+                                            <constraint firstItem="kSh-b1-hE1" firstAttribute="leading" secondItem="vIe-d8-CMW" secondAttribute="trailing" constant="19" id="pHt-pQ-tl7"/>
                                             <constraint firstAttribute="height" constant="75" id="snr-Uh-TDJ"/>
                                         </constraints>
                                     </view>
@@ -255,7 +267,7 @@
                                     <constraint firstAttribute="bottom" secondItem="Wpm-vI-Pdm" secondAttribute="bottom" constant="20" id="tF5-NT-91T"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUM-Px-npl">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUM-Px-npl">
                                 <rect key="frame" x="100" y="426" width="214" height="44"/>
                                 <color key="backgroundColor" red="0.61576580999999997" green="0.73170804980000004" blue="0.81178379060000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
@@ -271,6 +283,7 @@
                         <viewLayoutGuide key="safeArea" id="JJv-bE-pBl"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="DUM-Px-npl" firstAttribute="centerY" secondItem="2Ev-D7-lcH" secondAttribute="centerY" id="BZy-eq-Zih"/>
                             <constraint firstItem="CP5-ch-GDq" firstAttribute="leading" secondItem="JJv-bE-pBl" secondAttribute="leading" constant="20" id="Bnm-wr-VHt"/>
                             <constraint firstItem="Jvr-wf-x76" firstAttribute="leading" secondItem="JJv-bE-pBl" secondAttribute="leading" constant="20" id="DvD-Cp-BV6"/>
                             <constraint firstItem="JJv-bE-pBl" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="CP5-ch-GDq" secondAttribute="bottom" constant="10" id="Gi3-xr-hAC"/>
