@@ -18,6 +18,7 @@ class RegisterViewControlle : UIViewController, UIAdaptivePresentationController
     @IBOutlet weak var mainView: UIView!
     @IBOutlet weak var viewWithL: UIView!
     @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var labelCondition: UILabel!
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         self.presentationController?.delegate = self
@@ -34,6 +35,9 @@ class RegisterViewControlle : UIViewController, UIAdaptivePresentationController
         mainView.layer.cornerRadius = 5
         mainView.layer.borderWidth = 2
         mainView.layer.borderColor = CGColor(red: CGFloat(0.93), green: CGFloat(0.93), blue: CGFloat(0.93), alpha: CGFloat(1))
+        
+        labelCondition.text = "Agree with terms \n and conditions"
+        
         
     }
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {

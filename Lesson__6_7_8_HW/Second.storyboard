@@ -239,10 +239,10 @@
                                     <view contentMode="scaleToFill" verticalCompressionResistancePriority="2" translatesAutoresizingMaskIntoConstraints="NO" id="Wpm-vI-Pdm">
                                         <rect key="frame" x="40" y="238" width="294" height="75"/>
                                         <subviews>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vIe-d8-CMW">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vIe-d8-CMW">
                                                 <rect key="frame" x="15" y="22" width="51" height="31"/>
                                             </switch>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agree with terms and conditions" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSh-b1-hE1">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Agree with terms  and conditions" lineBreakMode="clip" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSh-b1-hE1">
                                                 <rect key="frame" x="83" y="8" width="203" height="59"/>
                                                 <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -254,10 +254,10 @@
                                             <constraint firstItem="vIe-d8-CMW" firstAttribute="leading" secondItem="Wpm-vI-Pdm" secondAttribute="leading" constant="15" id="1JZ-w0-S1P"/>
                                             <constraint firstItem="kSh-b1-hE1" firstAttribute="top" secondItem="Wpm-vI-Pdm" secondAttribute="top" constant="8" id="8qS-li-raZ"/>
                                             <constraint firstAttribute="trailing" secondItem="kSh-b1-hE1" secondAttribute="trailing" constant="8" id="9I1-bZ-cXU"/>
-                                            <constraint firstItem="vIe-d8-CMW" firstAttribute="centerY" secondItem="kSh-b1-hE1" secondAttribute="centerY" id="aVR-oW-C67"/>
+                                            <constraint firstItem="vIe-d8-CMW" firstAttribute="top" secondItem="Wpm-vI-Pdm" secondAttribute="top" constant="22" id="ey8-q4-IEi"/>
                                             <constraint firstAttribute="bottom" secondItem="kSh-b1-hE1" secondAttribute="bottom" constant="8" id="g1c-uh-2FV"/>
-                                            <constraint firstItem="kSh-b1-hE1" firstAttribute="centerY" secondItem="Wpm-vI-Pdm" secondAttribute="centerY" id="lyz-nD-hTF"/>
                                             <constraint firstItem="kSh-b1-hE1" firstAttribute="leading" secondItem="vIe-d8-CMW" secondAttribute="trailing" constant="19" id="pHt-pQ-tl7"/>
+                                            <constraint firstAttribute="bottom" secondItem="vIe-d8-CMW" secondAttribute="bottom" constant="22" id="q6W-Qj-oIl"/>
                                             <constraint firstAttribute="height" relation="lessThanOrEqual" constant="75" id="snr-Uh-TDJ"/>
                                         </constraints>
                                     </view>
@@ -306,6 +306,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="labelCondition" destination="kSh-b1-hE1" id="mYj-TQ-75a"/>
                         <outlet property="login" destination="XTM-mg-nIj" id="Zny-zu-CQ0"/>
                         <outlet property="loginButton" destination="DUM-Px-npl" id="XWq-tC-D4F"/>
                         <outlet property="mainView" destination="CP5-ch-GDq" id="un8-2p-cu2"/>
